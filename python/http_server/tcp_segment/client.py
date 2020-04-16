@@ -16,8 +16,8 @@ def send():
     connect.sendall(long_message.encode("UTF-8"))
     connect.sendall(another_short_message.encode("UTF-8"))
     # C
-    connect.sendall(another_short_message.encode("UTF-8"))
-    connect.sendall(long_message.encode("UTF-8"))
+    # connect.sendall(another_short_message.encode("UTF-8"))
+    # connect.sendall(long_message.encode("UTF-8"))
     # D
     # connect.sendall(another_short_message.encode("UTF-8"))
     # connect.sendall(short_message.encode("UTF-8"))
